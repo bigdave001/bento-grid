@@ -19,7 +19,6 @@ img {
 	max-width: 100%;
 	display: block;
 }
-
 body {
 	background-color: #f2f2f2;
 	min-width: 100vh;
@@ -179,11 +178,6 @@ body {
 	align-items: center;
 	gap: 1rem;
 }
-@media screen and (max-width: 550px) {
-  :root {
-    --mainPaddingX: 1.5rem;
-  }
-}
 @media (max-width: 1024px) {
 	.bento-grid{
 		grid-auto-rows: initial;
@@ -202,6 +196,11 @@ body {
 
 .bento-grid .item:nth-child(8) {
 	grid-template-columns: 1fr;
+}
+@media screen and (max-width: 550px) {
+	:root {
+	  --mainPaddingX: 1.5rem;
+	}
 }
 @media (max-width: 768px) {
 	.bento-grid .item{
@@ -255,7 +254,8 @@ body {
 }
 }
 @media (max-width: 540px) {
-	.bento-grid .item:nth-child(5) p {
+	.bento-grid .item:nth-child(1)  p {
 		margin-top: 6rem;
 	}
+
 }
