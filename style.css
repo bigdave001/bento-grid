@@ -179,6 +179,11 @@ body {
 	align-items: center;
 	gap: 1rem;
 }
+@media screen and (max-width: 550px) {
+  :root {
+    --mainPaddingX: 1.5rem;
+  }
+}
 @media (max-width: 1024px) {
 	.bento-grid{
 		grid-auto-rows: initial;
